@@ -179,7 +179,7 @@ handleDownload()
                     <Row style={{
                         marginTop: "1%"
                     }} >
-                        <Col lg={12}>
+                        <Col lg={12} md={12} sm={12} xs={12}>
                             <div >
                                 {this.state.box}
                                 {this.state.stageArr6}
