@@ -1,5 +1,5 @@
 const async = require('async');
-var client = require('redis').createClient();
+var client = require('redis').createClient(6379,'172.23.238.210');
 var retrieveAllstages = require('./stateServices/stages/retrieveAllStages');
 var updateStage = require('./stateServices/stages/updateStage');
 
