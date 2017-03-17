@@ -1,6 +1,6 @@
 
 const redis = require ('redis');
-var client = redis.createClient(6379,'172.23.238.210');
+var client = redis.createClient();
 
 module.exports=function(jobId,done)
 {

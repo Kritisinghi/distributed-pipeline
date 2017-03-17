@@ -1,4 +1,4 @@
-var client = require('redis').createClient(6379,'172.23.238.179');
+var client = require('redis').createClient();
 
 module.exports = function (input,userName,callback)
 {

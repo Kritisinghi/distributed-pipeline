@@ -18,6 +18,6 @@ function getMessage(cli,q,w){
 
 //api export
 module.exports = function(qName,worker){
-    const client= redis.createClient(6379,'172.23.238.210');
+    const client= redis.createClient();
     getMessage(client,qName,worker);
 };
